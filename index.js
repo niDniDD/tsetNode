@@ -1,6 +1,6 @@
 var app = require('./src/app')
 const mongoose = require("mongoose");
-var conn = process.env.MONGGO_DB_URI || 'mongodb://localhost/test'
+var conn = process.env.MONGO_DB_URI || 'mongodb://localhost/test'
 mongoose.connect(conn);
 
 
